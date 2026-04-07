@@ -1,23 +1,23 @@
 import java.util.Scanner;
-
 public class Main {
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        int x;
 
-        String x;
-        System.out.println("Escreva seu nome: ");
-        x = sc.next();
-        System.out.println("Voce digitou: " + x);
-        int y;
-        System.out.println("Escreva seu numero: ");
-        y = sc.nextInt();
-        System.out.println("Voce digitou: " + y);
-
+        String s1, s2, s3;
+        x = sc.nextInt();
+        sc.nextLine();
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
 
 
+        System.out.println("DADOS DIGITADOS:");
+        System.out.println(x);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
         sc.close();
     }
-
 }
