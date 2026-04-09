@@ -14,6 +14,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Ex08 {
+	public Ex08() {
+	}
+
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -38,6 +41,7 @@ public class Ex08 {
 			}
 
 			System.out.printf("R$ %.2f%n", imposto);
+
 		}
 
 		sc.close();

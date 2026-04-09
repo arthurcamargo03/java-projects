@@ -30,7 +30,9 @@ public class Ex04 {
             System.out.printf("Tempo de duração: %d horas",duracao);
             if (duracao < 1){
                 System.out.println("Tempo de duração mínimo é 1 hora");
+
             }
+
             }
 
         }
